@@ -11,13 +11,22 @@ h1{
     color: orange;
 }
 .half-side{
-    width: 30%;
+    width: 35%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 .half-side img{
     width: 100%;
+    margin-left: 50px;
+}
+#simple{
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#img-1{
+    padding-left:20px;
 }
 .part-1{
     background-image: url(images/header-bg.png);
@@ -44,8 +53,7 @@ h1{
     background-size: cover;   
 }
 section{
-    height: 500px;
-    margin-bottom: 50px;
+    height: 600px;
     width: cover;
 
 }
@@ -66,9 +74,13 @@ section{
     font-weight: bold;
 }
 .letest-work img{
-    width:25%;
-    padding:2%;
-    margin-right: 10px;
+    width: 25%;
+    padding: 2%;
+    display: inline;
+
+}
+.letest-work{
+    padding-top: 50px;
 }
 .attractive{
     background-color: darkred;
